@@ -1,0 +1,133 @@
+h1 {
+          text-align: center;
+          text-shadow: 10px 10px 7px rgba(0, 0, 0, 0.4);
+}
+.head {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          flex-direction: column;
+}
+.head > p {
+          margin-top: -10px;
+          font-size: 1.2em;
+          border-left: 0px;
+          
+}
+#image {
+          max-width: 100%;
+          height: auto;
+          align-items: center;
+          border-radius: 15px;
+          margin: 0 5rem;
+}
+body {
+          align-items: center;
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+}
+main {
+          border: 0px solid black;
+          border-radius: 15px;
+          background-color: rgb(230, 223, 236);
+
+}
+#img-div {
+ background-color: white;
+ text-align: center;
+ margin: auto 20px;
+ border-radius: 15px;
+ box-shadow: 10px 10px 7px rgba(0, 0, 0, 0.4);
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+}
+figcaption {
+          padding: 5px 5px 0 5px;
+          font-size: 1em;
+}
+h3 {
+          text-align: center;
+          padding: 10px 0;
+}
+ul li {
+          font-weight: bold;
+}
+ol li {
+          font-weight: normal;
+}
+p {
+          border-left: 2px solid black;
+          padding-left: 10px;
+          margin-top: -1px;
+          padding-top: 10px;
+          margin-bottom: 30px;
+}
+.quote {
+          border: 1px solid rgb(0, 0, 0);
+          padding: 0px 10px 0px 10px;
+          font-style: italic;
+          font-size: 1.2em;
+          background-color: rgba(0, 0, 0, 0.4);
+          border-radius: 10px;
+          box-shadow: 10px 10px 7px rgba(0, 0, 0, 0.4);
+}
+.kalam {
+          font-weight: bold;
+          font-size: 1em;
+          padding: 5px 0 0 5px;
+}
+.quote-kalam {
+          padding: 10px 10px 10px 10px;
+}
+#tribute-lin {
+          font-family: Arial, Helvetica, sans-serif;
+          padding: 10px 10px 20px 10px;
+          text-align: center;
+}
+#tribute-lin a {
+          text-decoration: none;
+          color:rgb(47, 93, 180);
+          font-weight: bold;
+}
+#tribute-lin a:hover {
+          color: blue;
+          text-decoration: none;
+}
+#tribute-lin a:visited {
+          color: rgb(47, 93, 180);
+          text-decoration: none;
+}
+@media screen and (max-width: 600px) {
+          #image {
+                    padding: 0 1rem;
+          }
+          .head > p {
+                    font-size: 1em;
+          }
+          h1 {
+                    font-size: 1.5em;
+          }
+          figcaption {
+                    font-size: 0.9em;
+          }
+          p {
+                    font-size: 0.9em;
+          }
+}
+@media screen and (max-width: 400px) {
+          h1 {
+                    font-size: 1.2em;
+          }
+          .head > p {
+                    font-size: 0.8em;
+          }
+          figcaption {
+                    font-size: 0.8em;
+          }
+          p {
+                    font-size: 0.8em;
+          }
+}
+
